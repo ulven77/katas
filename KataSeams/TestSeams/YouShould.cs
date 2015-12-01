@@ -3,9 +3,7 @@
  * 
  * Task to be done
  * - Make all tests pass by
- * -- dependency injection by mocking Rng
- * -- data injection by creating a public static version of Advice to verify
- * -- extracting and verifying the algorithm contained in Advice
+ * - what can we do???
  * 
  */
 

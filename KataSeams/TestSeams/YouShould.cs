@@ -18,7 +18,7 @@ namespace Test
         public void HearNoEvil()
         {
             //Setup
-            var giveMe = new GiveMe(); //Cant control input
+            var giveMe = new GiveMe(new Constant(1)); //Cant control input
 
             //Act
             var result = giveMe.Advice();
@@ -33,7 +33,7 @@ namespace Test
         public void DoNoEvil()
         {
             //Setup
-            var giveMe = new GiveMe(); //Cant control input
+            var giveMe = new GiveMe(new Constant(3)); //Cant control input
 
             //Act
             var result = giveMe.Advice();
@@ -48,7 +48,7 @@ namespace Test
         public void SayNoEvil()
         {
             //Setup
-            var giveMe = new GiveMe(); //Cant control input
+            var giveMe = new GiveMe(new Constant(2)); //Cant control input
 
             //Act
             var result = giveMe.Advice();

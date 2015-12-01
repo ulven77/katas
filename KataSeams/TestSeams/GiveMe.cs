@@ -4,11 +4,11 @@ namespace Test
 {
     internal class GiveMe
     {
-        private readonly Rng _rng;
+        private readonly IRng _rng;
 
-        public GiveMe()
+        public GiveMe(IRng rng)
         {
-            _rng = new Rng();
+            _rng = rng;
         }
 
         public string Advice()
